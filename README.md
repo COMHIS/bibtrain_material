@@ -11,3 +11,5 @@ Draft texts. This feeds into the final text
 
 ## local_repos.md
 Example repositories from the ESTC workflow. Some of these are referred to in the training module.
+
+![University of Helsinki](./hy_logo.png) ![Computational History Group](comhis_logo.png)
