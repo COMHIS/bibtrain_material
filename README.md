@@ -3,6 +3,9 @@ The whole thing is described in the planning document- of which a markdown print
 
 # Structure of the repo: 
 
+## index.md
+Draft text for DARIAH-CAMPUS
+
 ## BIBTRAIN - List of Suggested Topics.md
 The proposal. Ours is number 7.
 
