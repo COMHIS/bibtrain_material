@@ -1,6 +1,8 @@
 This is a project to create a page of training material for DARIAH-CAMPUS -platform. It will be part of a bibliographic data science curriculum, akin to these here: https://campus.dariah.eu/curricula
 The whole thing is described in the planning document- of which a markdown printout
 
+Rendered web page: https://comhis.github.io/bibtrain_material/index.html
+
 # Structure of the repo: 
 
 ## index.md
