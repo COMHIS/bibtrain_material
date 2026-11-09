@@ -20,25 +20,23 @@ Publication years and places in the English Short Title Catalogue (ESTC) provide
 
 By the end of this lesson, you should be able to:
 
-* Explain how a catalogue’s purpose, coverage and cataloguing history affect its reuse.  
+* Explain how a catalogue’s purpose, coverage and cataloguing history affect its use in research.  
 * Define a research or data-reuse objective, identify relevant source fields and specify what each output row represents.  
-* Organise refinement into documented, testable tasks with clear responsibilities and dependencies.  
-* Interpret refined dates and places while retaining source statements, uncertainty and unresolved cases.  
+* Organise refinement into clearly documented tasks with distinct responsibilities and dependencies.  
+* Understand the example cases of: Refining dates and places while retaining source statements, uncertainty and unresolved cases.
 * Distinguish structural validation from evaluation of the interpretations.  
 * Prepare a versioned dataset with sufficient documentation for others to assess and reuse it.
 
 ## An iterative workflow
 
-Work on publication years may reveal a need to distinguish date ranges; place processing may expose uncertainty in imprints or differences in cataloguing practice. These findings may lead to changes in the output structure, processing rules or research question. Keep successive versions to make those changes traceable.
+Refining a large dataset is an iterative process. For example, work on publication years may reveal a need to distinguish date ranges; place processing may expose uncertainty in imprints or differences in cataloguing practice. These findings may lead to changes in the output structure, processing rules or research question. Keeping successive versions to make those changes traceable. The following steps describe a sensible approach to such a task:
 
 1. **Map and plan.** Understand the source fields and decide what the research-ready output should represent.  
-2. **Plan the work.** Agree on shared conventions, divide tasks and identify which steps rely on earlier results.  
+2. **Plan the work.** Agree and set shared conventions, divide tasks and identify which steps rely on earlier results.  
 3. **Extract and refine.** Transform one field at a time, retaining evidence and unresolved cases.  
 4. **Validate and publish.** Test the results and publish them with code, documentation and a clear statement of scope.
 
-A first data publication might cover years and places. Later versions can add actors or other facets, retain the same record identifiers and state which component-table versions they use. Researchers can work with the data at each stage as methods and evidence develop.
-
-A first data publication can contain the refined year table and place links while actor identification continues. Number the release and document its source snapshot and the versions of its year and place tables. Add the actor data in a later version, noting changes to the earlier tables. Researchers can cite the version they used.
+Data and research publications can progress in tandem: E.g. a first data publication can contain the refined year table and place links while actor identification continues. Number the release and document its source snapshot and the versions of its year and place tables. Actor data can be added in a later version, noting changes to the earlier tables. Researchers can cite the version they used (see publication section below), and work with the data at each stage as methods and evidence develop.
 
 # Reading the examples
 
