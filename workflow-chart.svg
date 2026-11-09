@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="600" viewBox="0 0 1100 600" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+    </marker>
+    <marker id="tail" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M10,0 L0,5 L10,10 z" fill="#000"/>
+    </marker>
+  </defs>
+
+  <!-- Boxes -->
+  <rect x="40" y="40" width="300" height="100" rx="18" fill="#ecd0cc" stroke="#a95c52" stroke-width="2"/>
+  <text x="190" y="92" font-size="22" text-anchor="middle">1. Map and plan</text>
+
+  <rect x="400" y="40" width="300" height="100" rx="18" fill="#fbf2c9" stroke="#d6bd5b" stroke-width="2"/>
+  <text x="550" y="92" font-size="22" text-anchor="middle">2. Plan the workflow</text>
+
+  <rect x="760" y="40" width="300" height="100" rx="18" fill="#dce9d5" stroke="#8db86f" stroke-width="2"/>
+  <text x="910" y="92" font-size="22" text-anchor="middle">3. Extract, refine, unify</text>
+
+  <rect x="40" y="250" width="300" height="100" rx="18" fill="#ecd0cc" stroke="#a95c52" stroke-width="2"/>
+  <text x="190" y="292" font-size="20" text-anchor="middle">Source snapshot</text>
+  <text x="190" y="320" font-size="20" text-anchor="middle">and decision log</text>
+
+  <rect x="760" y="250" width="300" height="100" rx="18" fill="#dce9d5" stroke="#8db86f" stroke-width="2"/>
+  <text x="910" y="300" font-size="22" text-anchor="middle">4. Validate and evaluate</text>
+
+  <rect x="760" y="440" width="300" height="100" rx="18" fill="#dfe7fb" stroke="#7b92c4" stroke-width="2"/>
+  <text x="910" y="482" font-size="22" text-anchor="middle">5. Publish with versions</text>
+  <text x="910" y="510" font-size="20" text-anchor="middle">and documentation</text>
+
+  <!-- Sequence: 1 to 2 -->
+  <line x1="340" y1="90" x2="398" y2="90" stroke="#000" stroke-width="2" marker-end="url(#head)"/>
+
+  <!-- Iteration: 2 and 3 -->
+  <line x1="702" y1="90" x2="758" y2="90" stroke="#000" stroke-width="2" marker-start="url(#tail)" marker-end="url(#head)"/>
+
+  <!-- Iteration: 3 and 4 -->
+  <line x1="910" y1="142" x2="910" y2="248" stroke="#000" stroke-width="2" marker-start="url(#tail)" marker-end="url(#head)"/>
+
+  <!-- Iteration: 4 and 5 -->
+  <line x1="910" y1="352" x2="910" y2="438" stroke="#000" stroke-width="2" marker-start="url(#tail)" marker-end="url(#head)"/>
+
+  <!-- Evidence feeds validation -->
+  <line x1="342" y1="300" x2="756" y2="300" stroke="#000" stroke-width="2" stroke-dasharray="8,8"/>
+
+  <!-- Feedback: findings revise the workflow -->
+  <line x1="800" y1="248" x2="600" y2="142" stroke="#000" stroke-width="2" stroke-dasharray="8,8" marker-start="url(#tail)" marker-end="url(#head)"/>
+  <rect x="520" y="184" width="200" height="34" rx="6" fill="#ffffff"/>
+  <text x="620" y="207" font-size="17" text-anchor="middle" font-style="italic">revise rules and output</text>
+
+  <!-- Later versions return to planning -->
+  <text x="40" y="420" font-size="20" fill="#333">Each release records its version.</text>
+  <text x="40" y="450" font-size="20" fill="#333">Later releases add actors, and</text>
+  <text x="40" y="480" font-size="20" fill="#333">changes return to step 2.</text>
+</svg>

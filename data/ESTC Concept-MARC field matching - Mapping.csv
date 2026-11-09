@@ -1,0 +1,650 @@
+Concepts,MARC fields,"Potential additional information 
+in MARC fields",Catalogue Description,My general notes on the field,Examples,My Notes on the examples (this is based on my own observation on very limited sample (10k estc_ids in total) so it might not be true always),
+Estc_id,035$a,,,,"(CU-RivES)P1821
+
+(CU-RivES)P5961",,
+(Short) title of the record,245$a,,"245$a: Title statement
+Title and statement of responsibility area of the bibliographic description of a work.
+
+Title Statement field consists of the title proper and may also contain the general material designation (medium), remainder of title, other title information, the remainder of the title page transcription, and statement(s) of responsibility.",,"1) The philosophical magazine.
+
+2) The Free-thinker: or, Essays of wit and humour. /","245$a, 245$b, and 245$c used the same two estc ids. You can follow the numbers to follow which value belongs to which estc id.
+
+As it can be seen, 245$c can be used when 245$b is empty for a given work.",
+(Short) title of the record,245$b,,"245$b: Remainder of title
+",,"1) Comprehending the various branches of science, the liberal and fine arts, agriculture, manufactures, and commerce.
+",,
+(Short) title of the record,245$c,,245$c: Remainder of title page transcription/statement of responsibility,,"1) By Alexander Tilloch, member of the London Philosophical Society.
+
+2) Written by Dr. Boulter, ... Richard West, Esq. ... Dr. Gilbert Burnet, ... Mr. Henry Stephens, and Ambrose Philips, ...",,
+(Short) title of the record,,130$a,"130$a - Uniform title: Main entry under a uniform title is used when a work is entered directly under title and the work has appeared under varying titles, 
+necessitating that a particular title be chosen to represent the work. Cataloging rules also prescribe the use of this field when the work is entered directly under title and additions or deletions to the title proper must be accommodated. 
+In this latter case, the title may not actually vary from iteration to iteration. The title that appears on the work being cataloged is contained in field 245.",This can include the original name of a translated work. This field has plenty of 'Bible' values.,"European magazine, and London review 
+(London, England : 1782 : Semiannual).
+
+Weekly entertainer (Annual)
+
+Philosophical magazine (London, England : 1798).",The Weekly entertainer; or Agreeable and instructive repository.,
+(Short) title of the record,,130$t,130$t: Title of a work,Just one instance.,Quiz,,
+(Short) title of the record,,240$a,"240$a: Uniform title
+Uniform title for an item when the bibliographic description is entered under a main entry field that contains a personal (field 100), corporate (110), or meeting (111) name.
+
+Used when a work has appeared under varying titles, necessitating that a particular title be chosen to represent the work. Cataloging rules also prescribe the use of this field when additions or deletions to the title must be accommodated. In the latter case, the title may not actually vary from iteration to iteration. The title that appears on the work being cataloged is contained in field 245 (Title Statement). Field 240 is not used when field 130 (Main Entry-Uniform Title) is present.
+
+","It can contain the original name of a translated work such as 'Evangile du jour' or the broad name of the work such as 'Bills', 'Reports', and 'Public General Acts'.","Liturgies.
+
+Proceedings. 1706-1707
+
+Public General Acts. 1774.
+
+Politicorum libri decem.",,
+(Short) title of the record,,243$a,"243$a: Collective Titles
+Generic title that is constructed by the cataloger to collect works by a prolific author.","It includes values such as 'Works' or 'Sermons'. So, they may match with 'sub_category' sometimes.","Sermons.
+Essays.",,
+(Short) title of the record,,246$a,"246$a: Varying forms of the title appearing on different parts of an item or a portion of the title proper, or an alternative form of the title when the form differs substantially from the title statement in field 245 and if they contribute to the further identification of the item.","If the translated work's name is quite different than the original name, this can be stated here.","Liber precum communium, et administrationis sacramentorum,
+
+Minutes of the proceedings in Parliament
+
+Anno regni Georgii III. Regis Magnae Britanniae, Franciae, &amp; Hiberniae, decimo quarto",,
+(Short) title of the record,,246$b,246$b: Remainder of title in 246$a.,,"At the Parliament begun and holden at Westminster, the tenth day of May, Anno Domini 1768, in the eighth year of the reign of our Sovereign Lord George the Third, by the grace of God, of Great Britain, France, and Ireland, King, Defender of the Faith, &amp;c. And from thence continued, by several prorogations, to the thirteenth day of January, 1774; being the seventh session of the thirteenth Parliament of Great Britain",,
+(Short) title of the record,,490$a,490$a: Series statement.,This is used for series titles.,"Henshall's edition of select novels
+Bibliotheque amusante
+Entertaining museum, or Complete circulating library
+Henshall's pocket library of classic novels",,
+(Short) title of the record,,600$t,600$t: Title of a work,This field is between the title of the work and the subject of the work. It was hard for me to differentiante them.,"Review of the Affairs of France
+Hymns and songs of the church","The first example's 245_a value is: ""A view of the times, their principles and practices.""
+The second one's 245_a and 245b values are: 
+""An abstract of His Maiesties royall priuiledge, graunted vnder the Great Seale of England, to George VVither,""
+""master of arts, concerning his booke intituled, The Hymnes and Songs of the Church.""",
+(Short) title of the record,,610$t,610$t: Title of a work,This is not exacly the title but a generic name for the work or the name of the main subject of the work.,"""Proceedings. 1642-05-23"" for a work whose 245$a value is ""His Maiesties ansvver to the petition of both Houses of Parliament, presented at York the 23. of May, 1642.""",,
+(Short) title of the record,,611$t,611$t: Title of a work,,Propositions concerning the subject of baptism and consociation of churches.,,Sometimes 610_t and 611_t are almost identical except dot (.) at the end of the phrase.
+(Short) title of the record,,630$t,630$t: Title of a work,,"Harangue faicte de la part de la chambre ecclésiastique en celle du Tiers-estat sur l'article du serment.
+
+Ezekiel XXIV, 26
+
+Psalms.
+
+Book of common prayer
+
+The Almost Christian
+
+True narrative of the case of Sir George Wheler
+
+Act declaring that all persons of forreign birth, heretofore inhabiting within this colony, and dying seized of any lands, tenements or hereditaments, shall be forever hereafter deemed, taken and esteemed to have been naturalized; and for naturalizing all Protestants of forreign birth, now inhabiting within this colony.",,
+(Short) title of the record,,650$t,650$t: NA,,"Harangue faicte de la part de la chambre ecclésiastique en celle du Tiers-estat sur l'article du serment.
+
+Ezekiel XXIV, 26
+
+Psalms.
+
+Book of common prayer
+
+The Almost Christian
+
+True narrative of the case of Sir George Wheler
+
+Act declaring that all persons of forreign birth, heretofore inhabiting within this colony, and dying seized of any lands, tenements or hereditaments, shall be forever hereafter deemed, taken and esteemed to have been naturalized; and for naturalizing all Protestants of forreign birth, now inhabiting within this colony.",,
+(Short) title of the record,,651$t,651$t: Title of a work,,"Public General Acts
+Treaties, etc.
+Public General Acts, 23 Geo.3.c.49",,
+(Short) title of the record,,700$t,700$t: Title of a work,,"Essays after the manner of Goldsmith
+
+Life of Admiral Blake.
+
+Letters,. 1769-1770.",,
+(Short) title of the record,,710$t,710$t: Title of a work,,"Declaration of both Houses of Parliament.
+Private Acts.
+Ejus qui immobilis p.",,
+(Short) title of the record,,730$t,730$t: Title of a work,,General History of Europe.,,
+(Short) title of the record,,740$a,740$a: Uncontrolled related/analytical title,"If a book includes the play Hamlet by Shakespeare, but Hamlet isn’t the main title of the book.","Humble petition of His Majesties loving subjects in the county of Lincolne.
+
+Political register extraordinary.
+
+History of the war.
+
+Volunteer manager.
+
+Story-teller.",,
+(Short) title of the record,,830$a,830$a: Series added entry consisting of a series title alone.,,"Eighteenth century English provincial newspapers.
+
+Bibliotheque amusante
+
+Henshall's pocket library of classic novels.
+
+Entertaining museum, or Complete circulating library
+
+Henshall's edition of select novels.",,
+"State, province, territory",752$a,,"752$a: Country
+Name of the country or a larger political jurisdiction. It also contains the names of geographical areas/entities such as continents or hemispheres at a country level or higher. Subfield $a may be repeated for hierarchies when multiple levels are given, retaining the order highest-to-lowest.",,"Great Britain
+Great Britain.
+St. Kitts-Nevis",,
+"State, province, territory",,043$a,043$a: Geographic area code. Seven-character MARC code for a geographic area. Each geographic area code associated with an item is contained in a separate subfield $a.,,"e-uk---
+e-uk-en",,
+"State, province, territory",,110$a,110$a: Corporate name or jurisdiction name as entry element,,"London Corresponding Society.
+Great Britain.
+Ireland.
+Virginia.","Used for such works whose 245$a value is 'Acts and Statutes made in a Parliament begun at Dublin, the twenty eighth day of November, Anno Dom. 1727. In the first year of the reign of Our Most Gracious Sovereign Lord King George II.'
+
+It was also used for other organizations such as religious ones (e.g. ""Episcopal Church."") for religious texts. However; in my sample, the vast majority is from countries.",
+"Country, region, islands area",752$c,,"752$c: County, region, islands area
+Name of a second-order or lower political jurisdiction or division but not including towns or cities, and, depending on the country, can include the names of counties, islands, municipalities, prefectures, regions, etc. Subfield $c may be repeated for hierarchies when multiple levels are given, retaining the order highest-to-lowest.",,"London.
+Middlesex.
+Breconshire
+Somerset.
+Istanbul Province",There are some instances where 'London' was inserted in 752$c and 752$d (City) is empty.,
+"Country, region, islands area",752$b,,"752$b: State, province, territory
+Name of a first-order political jurisdiction or division and, depending on the country, can include the names of states, provinces, territories, départments, etc.",,"England
+England.
+Marmora Region","Connecticut.
+Michigan
+Prince Edward Island
+Jersey
+Virginia.
+Bristol.
+West Bengal",
+City,752$d,,"752$d: City
+Name of the city.",,"Dublin
+Dublin.
+Ayr",,
+City,,110$a,110$a: Corporate name or jurisdiction name as entry element,,"London Corresponding Society.
+Great Britain.
+Ireland.
+Virginia.","Used for works whose 245_a value is 'Acts and Statutes made in a Parliament begun at Dublin, the twenty eighth day of November, Anno Dom. 1727. In the first year of the reign of Our Most Gracious Sovereign Lord King George II.'",
+Publication place,260$a,,"260$a: Place of publication, distribution, etc.
+Place of publication and any additions to the name of a place, including an address, bracketed correction to erroneous information, or bracketed clarification of a fictitious place. In records formulated according to ISBD principles, subfield $a includes all data up to and including the next mark of ISBD punctuation (a colon (:) when subfield $a is followed by subfield $b, a semicolon (;) when subfield $a is followed by another subfield $a, and a comma (,) when subfield $a is followed by subfield $c).
+
+May contain the abbreviation [S.l.] when the place is unknown.",,"Richmond, Virginia :
+Nottingham [England] :
+London [England] :
+[London] :",,
+Publication place,,260$e,"260$e: Place of manufacture
+Place of manufacture and any additions to the place name. When subfield $e is recorded, subfield $f is also generally recorded. In records formulated according to ISBD principles, subfield $e is recorded after any subfield $a, $b, or $c. Subfield $e data along with any subfield $f and $g data are enclosed in parenthesis. Subfield $e includes all data up to and including the next mark of ISBD punctuation (i.e., a colon (:)).",,([London] :,,
+Publication place,,264$a,"264$a: Place of production, publication, distribution, manufacture: Statement relating to the publication, printing, distribution, issue, release, or production of a work.",,Dublin :,,
+Publication place,,008$publication_place_008,"264$a: Place of production, publication, distribution, manufacture: Statement relating to the publication, printing, distribution, issue, release, or production of a work.",,"enk
+fr
+gr
+nyu",,
+Publication place,,534$c,534$c: Descriptive data for an original item when the main portion of the bibliographic record describes a reproduction of that item and the data differ.,,653,,
+Publication year,260$c,,"260$c: Date of publication, distribution, etc.
+May contain multiple dates (e.g., dates of publication and copyright).
+
+If the date of manufacture is substituted for the date of publication, it is recorded in subfield $c. The date of creation may be recorded for unpublished items. Multiple adjacent publication dates such as a date of publication and copyright date are recorded in a single subfield $c. In records formulated according to ISBD principles, subfield $c is always preceded by a comma (,) unless it is the first subfield in field 260. Subfield $c ends with a period (.), hyphen (-) for open-ended dates, a closing bracket (]) or closing parenthesis ()). If subfield $c is followed by some other subfield, the period is omitted. If there are both a publication date and a date of manufacture, the date of manufacture is recorded in subfield $g.
+
+Only one subfield $c may be recorded in multiple publishing statements of a record.
+
+For serials, the date of publication is given only when the first and/or last issues are available or when the serial is no longer published.",,"1793.
+[1779]
+1728-1732]
+M DCC XXXIV. [1734]
+Anno 1603.
+August 24. 1647.
+&lt;1660&gt;
+in the year 1677.
+M,DCC,XCVI. [1796] (Price 31 1/4 cents)",,
+Publication year,,130$f,130$f: Date of a work,,"1590
+1687.",,
+Publication year,,240$f,240$f: Date of a work,,"1635
+1678 May 8",,
+Publication year,,264$c,"264$c: Date of production, publication, distribution, manufacture, or copyright notice",,1686 [i.e. 1687],,
+Publication year,,362$a,"362$a: Dates of publication and/or sequential designation
+
+Sequential designation may consist of volume number, edition number, issue number, series of volume numbers, or other sequential designations according to the usage of the publisher. The date may consist of the year, month, or day; month or season and year; or year alone, depending upon the frequency of publication and the usage of the publisher. Sequential designators and dates are recorded as given on the item. The ending designation is recorded following the beginning designation.
+When both a sequential designation and a chronological designation are given, the chronological one is enclosed in parentheses.",,"No. 1.-no. 4. [1780]
+Began in 1798?
+Vol. I. No. 4.-vol. I. no. 21.",Sometimes it doesn't have any date.,
+Publication year,,500$a,"500$a: General note
+General information for which a specialized 5XX note field has not been defined.",,"With an order by the Lord Mayor to print dated Tuesday, 7 May 1672, at end of text.
+
+Date of publication suggested by Wing CD-ROM, 1996.
+
+Imprint from colophon; imprint of first issue known is dated 1704.
+
+At end of text, before imprint: Licensed, Aug. 27th, 1688.
+
+The papers are dated 20-29 October 1646.",,
+Publication year,,630$f,630$f: Date of a work,,"1628
+1747.",,
+Publication year,,700$f,700$f: Added Entry-Personal Name: Date of a work,,"1636
+1800.
+1692.
+[1700]
+1676.
+bookseller.
+printer.",,
+Publication Decade,,,,"There is no direct field in estc_raw to use here. However, 260c value can be processed here. It includes such values: ""1660."" or ""MDCCXXX. [1730]"".",,,
+Publication Century,,,,"There is no direct field in estc_raw to use here. However, 260c value can be processed here. It includes such values: ""1660."" or ""MDCCXXX. [1730]"".",,,
+Page Count,300$a,,"300$a: Extent
+Number of physical pages, volumes, cassettes, total playing time, etc., of each type of unit.
+
+For multipart and serial items, it includes volumes (and pagination when pages are numbered consecutively). In records formulated according to ISBD principles, subfield $a contains all data up to and including the next mark of ISBD punctuation (e.g., a colon (:), a semicolon (;), a plus sign (+)).
+When the statement of pagination and of illustrative matter are combined, they are both recorded in a single subfield $a.
+
+300        ##$a74 p. of ill., 15 p. ;$c28 cm
+300        ##$a27 leaves of plates, 4 p. ;$c31 cm
+",,"[16], 652 p. ;
+4 leaves.
+
+61-62 p. ;
+
+[8], 720, [4] p., [4] leaves of plates (2 fold) :",,
+Volume Count,300$a,,"300$a: Extent
+Number of physical pages, volumes, cassettes, total playing time, etc., of each type of unit.
+
+For multipart and serial items, it includes volumes (and pagination when pages are numbered consecutively). In records formulated according to ISBD principles, subfield $a contains all data up to and including the next mark of ISBD punctuation (e.g., a colon (:), a semicolon (;), a plus sign (+)).
+",,11 volumes :,,
+Volume Count,,362$a,"362$a: Dates of publication and/or sequential designation
+Sequential designation may consist of volume number, edition number, issue number, series of volume numbers, or other sequential designations according to the usage of the publisher. The date may consist of the year, month, or day; month or season and year; or year alone, depending upon the frequency of publication and the usage of the publisher. Sequential designators and dates are recorded as given on the item. The ending designation is recorded following the beginning designation.
+When both a sequential designation and a chronological designation are given, the chronological one is enclosed in parentheses.",,"Vol. I. No. 22.-
+
+Published Saturday February the first, 1689. [i.e. 1690].
+
+Volume I. [No.1/3-8 (Aug./Sept.-10 Dec. 1798)]-volume V. [no.33-36 (25 Jan.-25 Mars. 1800)]",,
+Volume Count,,490$v,490$v: Volume number/sequential designation,,"111
+12-15
+16-23
+29-34
+6. Bd. = der ganzen Reihe 13 Bd.",,
+Volume Count,,515$a,515$a: Numbering peculiarities note. Statement on the numbering irregularity or peculiarity.,,"Volume numbering begins with vol. II; vol. [I] includes the first 13 numbers.
+
+Volume 4, the issues from March to May 1711, do not appear to have been collected in a single volume.",,
+Document Type,leader$leader_material_type_06,,leader$leader_material_type_06: One-character alphabetic code used to define the characteristics and components of the record.,,"c
+e
+a
+t",,
+Subject Topic,,600$a,600$a: Personal name,"600$a: While using this, it would be good if the fields 600$b (Numeration, 8,452 rows with 1.76% coverage), 600$c (Titles and other words associated with a name, 28,290 rows with 5.83% coverage), and 600$q (Fuller form of name, 802 rows with 0.17% coverage) should be taken into consideration too. Sometimes they altogether give the full name of the author.
+
+Also, 600$d has the dates associated with the name. This can be used to enrich the metadata for the person.","Charles
+Paul",,
+Subject Topic,,600$b,600$b: Numeration,,"II,
+V,",,
+Subject Topic,,600$c,600$c: Titles and other words associated with a name,,"King of England,
+Pope,",,
+Subject Topic,,600$f,600$f: Date of a work,,1686,"The value is almost identical as the value in 260_c, except a dot for the same estc id.",
+Subject Topic,,600$q,600$q: Fuller form of name,,"(Marie-Catherine),
+(Robert),","In the first example, it is identical with the value in 100q and it doesn't refer to the name in 600$a. So, 100a ≠ 600a, 100q = 600q
+In the second example, it is again identical with the value in 100q but values in 100a and 600a are also identical. So, 100a = 600a, 100q = 600q",
+Subject Topic,,600$t,600$t: Title of a work,This field is between the title of the work and the subject of the work. It was hard for me to differentiante them.,"Review of the Affairs of France
+Hymns and songs of the church","The first example's 245_a value is: ""A view of the times, their principles and practices.""
+The second one's 245_a and 245b values are: 
+""An abstract of His Maiesties royall priuiledge, graunted vnder the Great Seale of England, to George VVither,""
+""master of arts, concerning his booke intituled, The Hymnes and Songs of the Church.""",
+Subject Topic,,600$v,"600$v: Subject added entry in which the entry element is a personal name.
+
+Subject added entries are assigned to a bibliographic record to provide access according to established subject cataloging principles and guidelines. Field 600 may be used by any institution assigning subject headings based on the lists and authority files identified in the second indicator position or in subfield $2 (Source of heading or term).",600$x can be used as complementary to this subfield.,"Newspapers
+Controversial literature
+Apologetic works",,
+Subject Topic,,600$x,600$x: General subdivision,,"Law and legislation
+Humor
+Public opinion","Value is ""Law and legislation"" for the book ""An Act for providing carriage by land, and by water, for the use of his Majesties Navy and Ordnance.""
+Interestingly, 610c value for the same estc_id is also ""Law and legislation""; however, 610c is responsible for 'Location of meeting' as the rules suggest.",
+Subject Topic,,600$y,600$y: Chronological subdivision,This field is for the date related to the things happening in the work.,"Early works to 1800.
+18th century
+40-81",40-81 is for the work 'Destruction de Jerusalem (Chanson de geste).' although the publication year is possibly '1528'.,
+Subject Topic,,600$z,600$z: Geographic subdivision,This field is for the geographical place related to the things happening in the work.,South America.,"For the work ""A voyage to the South-Sea, and along the coasts of Chili and Peru,"" published in London, 600$z value is ""South America."" since the topic is related to South America.",
+Subject Topic,,610$a,610$a: Corporate name or jurisdiction name as entry element,610$b can be used as complementary to this subfield.,"Great Britain
+England and Wales.
+New Jerusalem Church
+East India Company","Place name might occur here if 245a value is like this: ""Remarkable occurrences from the High Court of Parliament""
+otherwise, it might be a company or organization name.",
+Subject Topic,,610$b,610$b: Numeration,,"II,
+Parliament","Again the value can. be 'Parliament' if 610_a value is ""England and Wales."". This geneally happens when the work's name is something like this: ""An Act for the importing of madder pure and unmixed.""",
+Subject Topic,,610$c,610$c: Location of meeting,"Although its name is not ""Titles and other words associated with a name"" (as 600$c's name) but ""Location of meeting"", it has still titles such as ""Marquess of,"" or ""Duke of,"".","Law and legislation
+Army
+Town Council]",,
+Subject Topic,,610$d,610$d: Date of meeting or treaty signing,"Can be used works such as ""The president's message"" or ""Speech""","1783 September 3.
+-1788
+1660-1685","For the speeches, the precise date including day, month, and year can be given here.
+The third example belongs to a serial work, newspaper. Although its 260c value is just 1660, 610d value includes an interval.",
+Subject Topic,,610$f,610$f: Date of a work,,"1799.
+1704.
+1689.",,
+Subject Topic,,610$g,610$g: Miscellaneous information,,"United States,
+Great Britain,
+(1686).
+((1686))",,
+Subject Topic,,610$t,610$t: Title of a work,This is not exacly the title but a generic name for the work or the name of the main subject of the work.,"""Proceedings. 1642-05-23"" for a work whose 245$a value is ""His Maiesties ansvver to the petition of both Houses of Parliament, presented at York the 23. of May, 1642.""",,
+Subject Topic,,610$v,"610$v: Form subdivision.
+Subject added entry in which the entry element is a personal name.
+
+Subject added entries are assigned to a bibliographic record to provide access according to established subject cataloging principles and guidelines. Field 600 may be used by any institution assigning subject headings based on the lists and authority files identified in the second indicator position or in subfield $2 (Source of heading or term).",610$x can be used as complementary to this subfield.,"Early works to 1800
+Newspapers
+Apologetic works","The last example's 240a value is ""De veritate religionis Christianae."" (On the truth of the Christian religion.)",
+Subject Topic,,610$x,610$x: General subdivision,,"Law and legislation
+Reform
+History
+Missions
+Land
+Impeachment",,
+Subject Topic,,610$y,610$y: Chronological subdivision,,"1760-1820
+18th century",,
+Subject Topic,,610$z,610$y: Chronological subdivision,,"1760-1820
+18th century",,
+Subject Topic,,611$a,611$a: Meeting name or jurisdiction name as entry element,,"A defence of the answer and arguments of the synod met at Boston in the year 1662.
+
+Westminster Assembly","The first example's 245a value is ""A defence of the answer and arguments of the synod met at Boston in the year 1662."".
+
+The second example's 245a and 245b values are:
+245a: ""A reply of two of the brethren to A.S.""
+245b: ""wherein you have observations on his considerations, annotations, &amp;c. Upon the apologeticall narration. With a plea for libertie of conscience for the apologists church way; against the cavils of the said A. S. formerly called M. S. to A. S. Humbly submitted to the judgements of all rationall, and moderate men in the world. With a short survey of W. R. his Grave confutation of the separation, and some modest, and innocent touches on the letter from Zeland, and Mr. Parker's from New-England. The second edition, corrected, and inlarged. Licenced and entred according to order.""",
+Subject Topic,,611$e,611$e: Subordinate unit,,-1548,"The example's 260_c value is ""the vi. daie of Auguste, the yere of our lorde. M.D.XLVIII.] [1548]"".",
+Subject Topic,,611$t,611$t: Title of a work,,Propositions concerning the subject of baptism and consociation of churches.,,Sometimes 610_t and 611_t are almost identical except dot (.) at the end of the phrase.
+Subject Topic,,611$v,611$v: Form subdivision,,"Early works to 1800.
+Early works to 180.
+Controversial literature
+Humor",,
+Subject Topic,,611$x,611$x: General subdivision,,"Law and legislation
+Controversial literature
+History",,
+Subject Topic,,630$a,"630$a: Uniform title
+Subject added entry in which the entry element is a uniform title.
+
+Subject added entries are assigned to a bibliographic record to provide access according to established subject cataloging principles and guidelines. Field 630 may be used by any institution assigning subject headings based on the lists and authority files identified in the second indicator position or in subfield $2 (Source of heading or term).
+
+Title used in phrase subject headings (e.g., Bible and atheism) is contained in field 650 (Subject Added Entry-Topical Term).","If a book is a critical study of Shakespeare's Hamlet, 630 $a would be used to indicate that Hamlet is the subject of the work.","Bible.
+Craftsman (Periodical)
+Plebeian","For instance, 'Bible' was inserted to 630$a when the work's 245$a value is 'The Psalms, of David in metre.'",
+Subject Topic,,630$g,630$g: Miscellaneous information,,"1700.
+with literary curiosities.",,
+Subject Topic,,630$t,630$t: Title of a work,,"Harangue faicte de la part de la chambre ecclésiastique en celle du Tiers-estat sur l'article du serment.
+
+Ezekiel XXIV, 26
+
+Psalms.
+
+Book of common prayer
+
+The Almost Christian
+
+True narrative of the case of Sir George Wheler
+
+Act declaring that all persons of forreign birth, heretofore inhabiting within this colony, and dying seized of any lands, tenements or hereditaments, shall be forever hereafter deemed, taken and esteemed to have been naturalized; and for naturalizing all Protestants of forreign birth, now inhabiting within this colony.",,
+Subject Topic,,630$v,630$v: Form subdivision,,"Controversial literature
+Early works to 1800.
+Fiction
+Sermons
+Biography
+Commentaries",,
+Subject Topic,,630$x,630$x: General subdivision	,,"History
+History of Biblical events
+Study and teaching.",,
+Subject Topic,,630$y,630$y: Chronological subdivision,,"17th century
+17th century.
+1739",,
+Subject Topic,,630$z,630$z: Geographic subdivision,,"England
+Pennsylvania","While the first example's 260a value is ""[London :"", the second example's 260a value is ""[Philadelphia :"".",
+Subject Topic,,648$a,"648$a: Subject Added Entry-Chronological Term
+Subject added entry in which the entry element is a chronological term.",,"1473-1640
+1603-1800",,
+Subject Topic,,650$a,650a: Topical term or geographic name as entry element,,"Political parties
+Biography, English
+Jacobite Rebellion, 1745-1746
+Children's stories, French.
+Roads","The last example is from ""Public General Acts"" (240a) on ""An Act for enlarging and repairing of common high-ways."" (according to 245a value).",
+Subject Topic,,650$b,650$b: Topical term following geographic name as entry element,,"Post office
+III,","The first example's 650a value is an organization/location, ""England and Wales"" whereas the second one's is a person name, ""William"".",
+Subject Topic,,650$t,650$t: NA,,"Harangue faicte de la part de la chambre ecclésiastique en celle du Tiers-estat sur l'article du serment.
+
+Ezekiel XXIV, 26
+
+Psalms.
+
+Book of common prayer
+
+The Almost Christian
+
+True narrative of the case of Sir George Wheler
+
+Act declaring that all persons of forreign birth, heretofore inhabiting within this colony, and dying seized of any lands, tenements or hereditaments, shall be forever hereafter deemed, taken and esteemed to have been naturalized; and for naturalizing all Protestants of forreign birth, now inhabiting within this colony.",,
+Subject Topic,,650$v,"650$v: Form subdivision
+Form subdivision that designates a specific kind or genre of material as defined by the thesaurus being used. Subfield $v is appropriate only when a form subject subdivision is added to a main term.",,"Newspapers
+Early works to 1800.
+Periodicals",,
+Subject Topic,,650$x,"650$x: General subdivision
+Subject subdivision that is not more appropriately contained in subfields $v (Form subdivision), $y (Chronological subdivision), or $z (Geographic subdivision). Subfield $x is appropriate only when a general topical subdivision is added to a main term.",,"Law and legislation
+Prices
+England
+1664-1667",,
+Subject Topic,,650$y,"650$y: Chronological subdivision
+Subject subdivision that represents a period of time. Subfield $y is appropriate only when a chronological subject subdivision is added to a main term.
+
+",,"1688
+To 1700.
+18th century
+Colonial period, ca. 1600-1775",,
+Subject Topic,,650$z,"650$z: Geographic subdivision
+Geographic subject subdivision. Subfield $z is appropriate in field 650 only when a geographic subject subdivision is added to a main term.
+
+",,England,,
+Subject Topic,,651$a,"651$a: Geographic name
+Subject added entry in which the entry element is a geographic name.
+Parenthetical qualifying information is not separately subfield coded.",,Great Britain,Sometimes 651$a is the same as 650$z.,
+Subject Topic,,651$b,651$b: Geographic name following place entry element,,"Armed forces
+to 1775
+Parliament.","The last example's 100b value is also 'Parliament.' although the second example's 100b value is ""General Assembly."". So, 651b and 100b values are not always identical but sometimes they might be.",
+Subject Topic,,651$t,651$t: Title of a work,,"Public General Acts
+Treaties, etc.
+Public General Acts, 23 Geo.3.c.49",,
+Subject Topic,,651$v,"651$v: Form subdivision
+Subject added entry in which the entry element is a geographic name.
+Form subdivision that designates a specific kind or genre of material as defined by the thesaurus being used. Subfield $v is appropriate only when a form subject subdivision is added to a geographic name.",,Early works to 1800.,Sometimes 651$v is the same as 650$v.,
+Subject Topic,,651$x,"651$x: General subdivision
+Subject subdivision that is not more appropriately contained in subfield $v (Form subdivision), subfield $y (Chronological subdivision), or subfield $z (Geographic subdivision). Subfield $x is appropriate only when a general topical subdivision is added to a geographic name.",,"History
+Politics and Government","Sometimes 651x and 630x values are the same.
+Sometimes when one of them is present, the other is not.
+Sometimes they have different values.
+In the first example here, while the 651x value is ""History"", 630x value is ""Public opinion"".",
+Subject Topic,,651$y,"651$y: Chronological subdivision
+Subject added entry in which the entry element is a geographic name.
+Subject subdivision that represents a period of time. Subfield $y is appropriate only when a chronological subject subdivision is added to a geographic name.",,"Charles I, 1625-1649",,
+Subject Topic,,651$z,"651$z: Geographic subdivision
+Subject added entry in which the entry element is a geographic name.
+Geographic subject subdivision. Subfield $z is appropriate only when a geographic subject subdivision is added to a geographic name.",,"England.
+Asia.",,
+Subject Topic,,655$a,"655$a: Genre/form/physical characteristics
+Terms indicating the genre, form, and/or physical characteristics of the materials being described.
+
+Terms indicating the genre, form, and/or physical characteristics of the materials being described. A genre term designates the style or technique of the intellectual content of textual materials or, for graphic materials, aspects such as vantage point, intended purpose, characteristics of the creator, publication status, or method of representation. A form term designates historically and functionally specific kinds of materials distinguished by their physical character, the subject of their intellectual content, or the order of information within them. Physical characteristic terms designate historically and functionally specific kinds of materials as distinguished by an examination of their physical character, subject of their intellectual content, or the order of information with them.
+
+Examples of genre terms for textual materials are: biographies, catechisms, essays, hymns, or reviews. Examples of form and physical characteristic terms are: daybooks, diaries, directories, journals, memoranda, questionnaires, syllabi, or time sheets.
+
+May contain terms constructed from a faceted vocabulary. For each term found in the field, an identification is given as to the facet/hierarchy in the thesaurus from which the term came. In addition, identification is given as to which term is the focus term of the expression.",,"Newspapers
+Periodicals
+Legislative addresses.",,
+Subject Topic,,655$b,"655$b: Non-focus term
+Term other than that considered the focus in a faceted heading (first indicator is value 0).",,"Local histories.
+Addresses.
+rbgenr",,
+Subject Topic,,655$v,"655$v: Form subdivision
+Form subdivision that designates a specific kind or genre of material as defined by the thesaurus being used. Subfield $v is appropriate only when a form subject subdivision is added to a genre/form term.",,"Early works to 1800.
+Periodicals.
+Pastoral.",,
+Subject Topic,,655$x,"655$x: General subdivision
+Subject subdivision that is not more appropriately contained in subfield $v (Form subdivision), subfield $y (Chronological subdivision), or subfield $z (Geographic subdivision). Subfield $x is appropriate only when a topical subdivision is added to a term with a first indicator of # (Basic).",,"Democratic-Republican
+England
+Stationery.
+Drugs.","The first example's 245a value is ""A Candid address, to the freemen of the state of Rhode-Island, on the subject of the approaching election."".",
+Subject Topic,,655$y,"655$y: Chronological subdivision
+Subject subdivision that represents a period of time. Subfield $y is appropriate only when a chronological subject subdivision is added to a term.","The precise dates (such as 1796) in this field are the same with the values in ""260_c"".","18th century.
+Colonial period, ca. 1600-1775
+1796",,
+Subject Topic,,655$z,"655$z: Geographic subdivision
+Geographic subject subdivision. Subfield $z is appropriate only when a geographic subject subdivision is added to a term.",,"England
+United States.
+New York (State)
+Rhode Island.",,
+Subject Topic,,730$a,"730$a: Uniform title
+Uniform title, a related or an analytical title that is controlled by an authority file or list, used as an added entry.",When the work being cataloged is related to another work or a work includes another work.,"Turkish spy.
+Mahābhārata Sakuntalopakhyana.
+Miscellaneous Documents. 1641-06-22.",,
+Height,300$c,,"300$c: Dimensions
+Expressed in centimeters, millimeters, or inches; may include a parenthetical qualifier giving the format of the item (e.g., (fol.), (8vo)).
+
+Format qualifier is recorded as part of subfield $c and is not separately subfield coded. In records formulated according to ISBD principles, subfield $c contains all data following a semicolon (;) and up to and including the next mark of ISBD punctuation, if any (e.g., a plus sign (+)).","300$3 (Materials specified) has two entries and it has such information: ""4 x 22.5 cm.|4 cm (1/2⁰)"" . 300$3 might be a mistake.",37-46 cm (2⁰),,
+Height,,500$a,"500$a: General note
+General information for which a specialized 5XX note field has not been defined.","300$3 (Materials specified) has two entries and it has such information: ""4 x 22.5 cm.|4 cm (1/2⁰)"" . 300$3 might be a mistake.",Height: 15 cm.,,
+Widht,300$c,,"300$c: Dimensions
+Expressed in centimeters, millimeters, or inches; may include a parenthetical qualifier giving the format of the item (e.g., (fol.), (8vo)).
+
+Format qualifier is recorded as part of subfield $c and is not separately subfield coded. In records formulated according to ISBD principles, subfield $c contains all data following a semicolon (;) and up to and including the next mark of ISBD punctuation, if any (e.g., a plus sign (+)).","300$3 (Materials specified) has two entries and it has such information: ""4 x 22.5 cm.|4 cm (1/2⁰)"" . 300$3 might be a mistake.",44 cm (2⁰),,
+Gatherings,300$c,,"300$c: Dimensions
+Expressed in centimeters, millimeters, or inches; may include a parenthetical qualifier giving the format of the item (e.g., (fol.), (8vo)).
+
+Format qualifier is recorded as part of subfield $c and is not separately subfield coded. In records formulated according to ISBD principles, subfield $c contains all data following a semicolon (;) and up to and including the next mark of ISBD punctuation, if any (e.g., a plus sign (+)).","300$3 (Materials specified) has two entries and it has such information: ""4 x 22.5 cm.|4 cm (1/2⁰)"" ","19 cm (4⁰)
+2⁰ (29 cm.).
+12⁰.
+1/2⁰; 2⁰.",,
+Language,008$language_008,,"008$language_008: Language
+Three-character alphabetic code that indicates the language of the item. Code from: MARC Code List for Languages. Choice of a MARC code is based on the predominant language of the item.
+For language material (i.e., books and continuing resources), the language code is based on the text of the item. The term text refers to the principle work(s) included within the publication, excluding the preface, introduction, foreword, appendices, etc.
+When only one language is associated with an item, the code for that language is recorded.
+If more than one language code is applicable, the code for the predominant language is recorded in 008/35-37, and the codes for all of the languages, including the predominant language, are recorded in one or more occurrences of field 041 (Language Code). The code recorded in 008/35-37 is always the same as the language code recorded in the first occurrence in the bibliographic record of subfields $a or $d (for sound recordings).
+If there is no predominant language, the language codes are recorded in English alphabetical order in field 041 and the first one is recorded in 008/35-37.",,eng,This field has only code.,
+Language,,041$a,"041$a: Language code of text/sound track or separate title
+Language code in the first occurrence of subfield $a in the bibliographic record is also recorded in 008/35-37 (Language) unless 008/35-37 contains blanks (###) or the code ""zxx"" (No linguistic content).
+For works in multiple languages, the codes for the languages of the text are recorded in the order of their predominance in the text. If no language is predominant, the codes are recorded in English alphabetical order. If the cataloging institution has chosen to code mul (Multiple languages) in 008/35-37, the code for the title (or the first title, if there are more than one) and the code mul are recorded. Alternatively, any number of specific language codes may be recorded in repeating occurrences of subfield $a.
+When a work is a translation or includes a translation, the code for the language of the translation is recorded in subfield $a. The code(s) for the language(s) of the original work are recorded in subfield $h. The code(s) for the language(s) of intermediate translations are recorded in subfield $k. If a resource contains both the original work and a translation of the original work, both the language of the original and the language of the translation are recorded in separate occurrences of subfield $a. The code(s) for the original is also recorded in subfield $h.",,"eng
+lat","This field has only code.
+The first lines here and 041$a belong to a translation from French to English.
+The second lines here and 041$a belong to ""The whole book of Psalmes:'.collected into English meter ... Conferred with the Hebrew.""",
+Language,,041$h,"041$h: Language code of original
+Language code of original and/or intermediate translations of text.
+Language code(s) for original language. Original language may be recorded regardless of whether the first indicator indicates a translation (i.e. value 1). The language code is for the original language of the primary content of the item and it is not required to use it if the item is not a translation.
+
+When indicating the original language of subsidiary materials (e.g. other liner notes, etc.) subfield $m is used.","Even though the catalogue rules suggest to use 041$m for the original language of subsidiary materials, 
+041$m was not used in estc_raw.","fre
+eng",,
+Language,,130$l,130$l: Language of a work,,English.,"Always identical as 041$a value. However, this field doesn't have code.",
+Language,,240$l,240$l: Language of a work,,English,"Always identical as 041$a value. However, this field doesn't have code.",
+Language,,243$l,"243$l: Language for ""Collective Titles: Generic title that is constructed by the cataloger to collect works by a prolific author.""",,English. 1699,243$l value is 'English. 1699' when '240_l' value is just 'English'.,
+Language,,546$a,546$a: Language note,"Just one instance (""Words in English, French or Italian."")","Words in English, French or Italian.",,
+Language,,600$l,600$l: Language of a work,,English.,"In my sample data, the language in this field is the same given in ""008_language_008"" field which states the work's language..",
+Language,,610$l,610$l: Language of a work,,"English
+Welsh
+Latin","In my sample data, the language in this field is the same given in ""008_language_008"" field which states the work's language..",
+Language,,630$l,630$l: Language of a work,,"English
+Dutch","For the first example, the value 'English' aligns with the value in ""008_language_008"" field; however, for the second example, while the work's language is English according to the field """"008_language_008"""", 630l field has the value 'Dutch'. It is a translation of a religious work from Latin to English based on the other field values so I couldn't get why 630l value is 'Dutch'. Hard to explain without having more information about the work.",
+Language,,650$l,650$l,,English,,
+Language,,700$l,700$l: Language of a work,,English.,Sometimes an estc_id has both 243_l and 700_l almost the identical values but one of them has dot and other not (English. / English),
+"Author(s) of the title:
+1. Author",100$a,,100$a: Personal name,,"Henry
+
+England and Wales.
+
+Grafigny,","100$a, 100$b, 100$c, and 100$q are from the same estc_id.
+
+The value here might be non-person such as ""England and Wales."" if the work's 245a value is something like An Act for the importing of madder pure and unmixed.",
+"Author(s) of the title:
+1. Author",100$b,,100$b: Numeration,,"VIII,
+
+Parliament.
+
+",,
+"Author(s) of the title:
+1. Author",100$c,,100$c: Titles and other words associated with a name,,"King of England,
+
+
+
+Mme de",,
+"Author(s) of the title:
+1. Author",100$q,,100$q: Fuller form of name,,"
+
+
+
+Françoise d'Issembourg d'Happoncourt),","If 100$a includes only the last name, 100$q can include the first name.",
+"Author(s) of the title:
+1. Author",,110$a,110$a: Corporate name or jurisdiction name as entry element,,"Ireland.
+City of London (England).
+Holy Roman Empire.",,
+"Author(s) of the title:
+1. Author",,110$b,110$b: Subordinate unit,,"Lord Deputy (1687-1689 : Tyrconnel)
+Emperor (1658-1705 : Leopold I)
+Lord Mayor.",,
+"Author(s) of the title:
+1. Author",,700$a,700$a: Corporate name or jurisdiction name as entry element.,Check 700$e to see if the actor is printer,George,"100a value: England and Wales.
+100b value: Parliament.
+The work is about Public General Acts.
+In my sample, the field has only people's name from ruling class and the work names are like this: A proclamation set furthe by the Kynges Maiesty, with the aduise of his most honorable privey counsayll, for the valuacion of the shillinges and grotes to a meaner and lower value and rate",
+"Author(s) of the title:
+1. Author",,700$b,700$b: Numeration,,"I,",,
+"Author(s) of the title:
+1. Author",,700$c,700$c: Titles and other words associated with a name,,"King of Great Britain,",,
+"Author(s) of the title:
+1. Author",,700$q,700$q: Fuller form of name,,"(James),
+(William Henry),
+(1591-1646).",,
+"Author(s) of the title
+2. Corporate author",110$a,,110$a: Corporate name or jurisdiction name as entry element,,"England and Wales.
+[ Royal Dublin Society.",,
+"Author(s) of the title
+2. Corporate author",110$b,,110$b: Subordinate unit,,"England and Wales.
+[ Royal Dublin Society.",,
+"Author(s) of the title
+2. Corporate author",710$a,,710$a: Corporate name or jurisdiction name as entry element.,Check 710$e to see if the actor is printer,"Athenian Society (London, England)
+Second Church (Bradford, Mass.)",,
+Author’s life span,100$d,,100$d: Dates associated with a name,,"1672-1729.
+1591-1662.","If values in 100$a and 700$a are identical, the values for 100d and 700 are as well.",
+Author’s life span,,700$d,700$d: Dates associated with a name,,"1672-1719.
+1600-1649",,
+"Name of publisher, distributor, etc.",700$a,,700$a: Personal name,,,"I couldn't find concrete examples but technically, this field can include printer name.",
+"Name of publisher, distributor, etc.",260$b,,"260$b: Name of publisher, distributor, etc.
+Name of the publisher or distributor and any qualifying terms, such as an indication of function (e.g., [distributor]) or corrections to erroneous information. In records formulated according to ISBD principles, subfield $b is always preceded by a colon (:) and includes all data up to and including the mark of ISBD punctuation that introduces the next data element (a comma (,) when subfield $b is followed by subfield $c, a colon (:) when subfield $b is followed by another subfield $b, or a semicolon (;) when subfield $b is followed by subfield $a).
+
+May contain the abbreviation [s.n.] when the name is unknown.",,"printed by R. Goadby and Co.,
+
+printed for T. Cadell Jun. and W. Davies in the Strand; W.J. and J. Richardson at the Royal Exchange; and J. Hatchard in Piccadilly,
+
+s.n.,",,
+"Name of publisher, distributor, etc.",,710$a,710$a: Corporate name or jurisdiction name as entry element.,Check 710$e to see if the actor is printer,"England and Wales.
+Athenian Society (London, England)
+Second Church (Bradford, Mass.)","Field was used if 245a value is like this which implies the work was done by an organization: ""A brief relation of the taking of Bridgewater by the Parliaments forces under the command of Sir Tho: Fairfax;""",
+Name of printer,700$a,,700$a: Personal name,Check 700$e to see if the actor is printer,,"I couldn't find concrete examples but technically, this field can include printer name.",
+Name of printer,,260$f,"260$f: Manufacturer
+Name of the manufacturer and any qualifying terms. In records formulated according to ISBD principles, subfield $f contains all data following the last mark of ISBD punctuation (i.e., a colon (:)) and up to and including the mark of ISBD punctuation that introduces the next data element (a comma (,) when subfield $f is followed by subfield $g, a closing parenthesis ()) when subfield $f is the last subfield in field 260. Subfield $f data, along with any subfield $e or $g data, are enclosed in parentheses.
+
+May contain the abbreviation [s.n.] when the name is unknown.",Was used quite rarely.,"Printed by D.C. Eckermann.)
+
+Howard and Evans, printers, 42, Long-lane West smithfield)",,
+Name of printer,,264$b,"264$b: Name of publisher, distributor, etc.
+Name of the publisher or distributor and any qualifying terms, such as an indication of function (e.g., [distributor]) or corrections to erroneous information. In records formulated according to ISBD principles, subfield $b is always preceded by a colon (:) and includes all data up to and including the mark of ISBD punctuation that introduces the next data element (a comma (,) when subfield $b is followed by subfield $c, a colon (:) when subfield $b is followed by another subfield $b, or a semicolon (;) when subfield $b is followed by subfield $a).
+
+May contain the abbreviation [s.n.] when the name is unknown.",Was used quite rarely.,"printed by Andrew Crook and Samuel Helsham, assigns of Benjamin Tooke printer to the Kings most Excellent Majesty; and are to be sold by Andrew Crook at His Majesties printing-house on Ormonde-Key, and by Samuel Helsham at the Colledge-Arms in Castle-street,",,
+Name of printer,,710$a,710$a: Corporate name or jurisdiction name as entry element.,Check 710$e to see if the actor is printer,"Athenian Society (London, England)
+Second Church (Bradford, Mass.)",,
+Edition Information,250$a,,"250$a: Edition Statement
+Information relating to the edition of a work as determined by applicable cataloging rules.
+
+For mixed materials, field 250 is used to record statements relating to collections that contain versions of works existing in two or more versions (or states) in single or multiple copies (e.g., different drafts of a film script).
+
+For continuing resources, this field is not used for sequential edition statements such as 1st- ed. This type of information is contained in field 362 (Dates of Publication and/or Volume Designation).
+
+Edition statement that usually consists of numeric and alphabetic characters and accompanying words and/or abbreviations. If an edition statement appears in more than one language, only the first edition statement is recorded in subfield $a.
+
+In records formulated according to ISBD principles, subfield $a includes all data up to and including the first equal sign (=) or slash (/).
+",,"The sixth edition.
+
+The second edition,
+
+The 38 edition corrected and enlarged. /",,
+Edition Information,250$b,,"250$b: Remainder of edition statement
+Information relating to the edition of a work as determined by applicable cataloging rules.
+
+For mixed materials, field 250 is used to record statements relating to collections that contain versions of works existing in two or more versions (or states) in single or multiple copies (e.g., different drafts of a film script).
+
+For continuing resources, this field is not used for sequential edition statements such as 1st- ed. This type of information is contained in field 362 (Dates of Publication and/or Volume Designation).
+
+Usually, a statement of personal or corporate responsibility and/or a parallel edition statement.
+
+In records formulated according to ISBD principles, subfield $b contains all data following the first equal sign (=), or slash (/). Once subfield $b has been recorded, no further subfield coding of field 250 is possible.",,"In which will be several alterations, new adventures, and above 800 Lancashire words, that never were in any of the five first impressions.
+
+revised, and enlarged.
+
+By Tho. Sorocold.",,
+Cataloguing Source,008/39,,"008_cataloging_source_008: Cataloging source
+One-character code that indicates the original cataloging source of the record. If the cataloging source is known, it is identified in subfield $a of field 040 (Cataloging Source).
+
+",,"c
+d",,
+Cataloguing Source,,040$a,"040$a: Original cataloging agency
+MARC code or the name of the organization that created the original record.",,"Uk-ES
+CU-RivES
+MWA",,

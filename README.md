@@ -1,0 +1,13 @@
+This is a project to create a page of training material for DARIAH-CAMPUS -platform. It will be part of a bibliographic data science curriculum, akin to these here: https://campus.dariah.eu/curricula
+The whole thing is described in the planning document- of which a markdown printout
+
+# Structure of the repo: 
+
+## BIBTRAIN - List of Suggested Topics.md
+The proposal. Ours is number 7.
+
+## COMHIS BIBTrain contribution plan.md
+Draft texts. This feeds into the final text
+
+## local_repos.md
+Example repositories from the ESTC workflow. Some of these are referred to in the training module.
