@@ -8,6 +8,9 @@ Rendered web page: https://comhis.github.io/bibtrain_material/index.html
 ## index.md
 Draft text for DARIAH-CAMPUS
 
+## build_html.py
+Renders index.md to docs/index.html (the GitHub Pages site, served from the docs folder). Run `python3 build_html.py` after editing index.md.
+
 ## BIBTRAIN - List of Suggested Topics.md
 The proposal. Ours is number 7.
 
