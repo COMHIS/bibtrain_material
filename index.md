@@ -24,7 +24,7 @@ By the end of this lesson, you should be able to:
 * Define a research or data-reuse objective, identify relevant source fields and specify what each output row represents.  
 * Organise refinement into clearly documented tasks with distinct responsibilities and dependencies.  
 * Understand the example cases of: Refining dates and places while retaining source statements, uncertainty and unresolved cases.
-* Distinguish structural validation from evaluation of the accuracy of he results.  
+* Distinguish structural validation from evaluation of the accuracy of the results.  
 * Prepare a versioned dataset with sufficient documentation for others to assess and reuse it.
 
 ## An iterative workflow
